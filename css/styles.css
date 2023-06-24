@@ -16,7 +16,7 @@
     width: 100px;
     height: 100px;
     box-sizing: border-box;
-    border: 1px solid rgb(252, 251, 251);
+    border: 1px solid rgb(7, 1, 1);
     font-size: 4em;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@
 }
 
 .square.x:before {
-    color: rgb(30, 255, 0);
+    color: rgba(22, 105, 1, 0.993);
     content: "X";
 }
 
@@ -37,9 +37,10 @@
     color: rgb(255, 0, 0);
     content: "O";
 }
-body{
-background:black ;
+.styles .container{
+    background-image: linear-gradient(rgb(2, 252, 239), white);
 }
+
 .h1{
     color: aliceblue;
    text-shadow: rgb(253, 1, 1) 1px 3px 4px ;
