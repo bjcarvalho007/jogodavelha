@@ -1,0 +1,48 @@
+.container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#board {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid rgb(252, 251, 251);
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: #e4e3d29a;
+}
+
+.square.x:before {
+    color: rgb(30, 255, 0);
+    content: "X";
+}
+
+.square.o:before {
+    color: rgb(255, 0, 0);
+    content: "O";
+}
+body{
+background:black ;
+}
+.h1{
+    color: aliceblue;
+   text-shadow: rgb(253, 1, 1) 1px 3px 4px ;
+   cursor: pointer;
+
+}
